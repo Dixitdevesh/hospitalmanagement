@@ -1,3 +1,4 @@
+
 PATIENT_FILE = 'patients.txt'
 DISCHARGED_FILE = 'discharged.txt'
 
@@ -187,8 +188,10 @@ def count_patients():
         print("Error while counting patients:", e)
 
 def main():
+    print("========== Hospital Management System ==========")
+    print("              Created by Devesh Dixit           ")
     while True:
-        print("Hospital Management System")
+        print("\n============= Main Menu =============")
         print("1. Add Patient")
         print("2. View All Patients")
         print("3. Search Patient")
@@ -199,6 +202,7 @@ def main():
         print("8. View Discharged Patients")
         print("9. Count Patients")
         print("10. Exit")
+        print("=====================================")
 
         choice = input("Enter your choice: ")
 
